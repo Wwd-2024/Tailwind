@@ -10,9 +10,9 @@ const Header = () => {
     const onlineStatus = useOnlineStatus();
     const [loginBtn, setLoginBtn] = useState("Login");
 
-   return ( <div className="header">
+   return ( <div className="flex justify-between pink">
     <div >
-        <img className="logo" src={LOGO_URL}/>
+        <img className="w-56" src={LOGO_URL}/>
     </div>
     <div className ="nav-item">
         <ul>
